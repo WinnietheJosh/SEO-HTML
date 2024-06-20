@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+h6{
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+p{
+    font-size: 1em;
+    padding: 10px;
+}
+
+img{
+    padding: 50px;
+}
+
+.container-header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(203, 243, 185);
+}
+
+.container-header a{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-header a:hover{
+    border-bottom: 2px solid black;
+}
+
+.container-header h2{
+    margin-left: 50px;
+}
+
+#descripcion .container{
+    margin: 30px 30px;
+}
+
+#procesos{
+    background-color: rgb(235, 255, 226);
+}
+
+img{
+    height: 400px;
+    width: 600px;
+}
+
+#procesos .container{
+    margin: 30px 30px;
+}
+
+#beneficios .container{
+    margin: 30px 30px;
+}
+
+#ejemplos .container{
+    margin: 30px 30px;
+}
+
+#ejemplos{
+    background-color: rgb(235, 255, 226);
+}
+
+iframe{
+    padding: 40px 40px;
+}
+
+footer{
+    background-color: rgb(203, 243, 185);
+    padding: 30px 30px;
+}
+footer h5{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 20px;
+}
